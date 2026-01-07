@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(vm_stat:*)",
+      "Bash(top:*)",
+      "Bash(xcrun simctl list:*)",
+      "Bash(sudo du:*)",
+      "Bash(du:*)",
+      "Bash(chmod:*)",
+      "Bash(perl:*)",
+      "Bash(find:*)",
+      "Bash(docker system df:*)",
+      "Bash(code --list-extensions:*)",
+      "Bash(npm cache clean:*)",
+      "Bash(sudo rm:*)",
+      "Bash(bash:*)",
+      "Bash(ls:*)",
+      "Bash(docker --version:*)",
+      "Bash(docker info:*)",
+      "Bash(docker-compose:*)",
+      "Bash(tee:*)",
+      "Bash(docker ps:*)"
+    ]
+  }
+}
