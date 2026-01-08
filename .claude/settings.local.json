@@ -20,7 +20,22 @@
       "Bash(docker info:*)",
       "Bash(docker-compose:*)",
       "Bash(tee:*)",
-      "Bash(docker ps:*)"
+      "Bash(docker ps:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(secrets/**)",
+      "Read(.aws/**)",
+      "Read(.ssh/**)",
+      "Read(**/*.key)",
+      "Read(**/*.pem)",
+      "Edit(.env)",
+      "Edit(.env.*)",
+      "Edit(secrets/**)",
+      "Bash(rm -rf /*)",
+      "Bash(sudo rm -rf /*)"
     ]
   }
 }

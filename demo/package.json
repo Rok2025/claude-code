@@ -1,0 +1,24 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "description": "A demo project for testing Claude Code /init command",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint ."
+  },
+  "keywords": ["demo", "example"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
