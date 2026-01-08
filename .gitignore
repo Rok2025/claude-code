@@ -1,0 +1,42 @@
+# Environment variables
+.env
+.env.local
+.env.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Claude Code / Antigravity internal
+.claude/settings.local.json
+.claude/session.json
+.gemini/antigravity/
+
+# Temporary files
+*.tmp
+*.log
+eng.log
